@@ -113,8 +113,8 @@ a{
         padding-bottom: 5px;
     }
     .boxes {
-        height: 80%;
-        width:68%;
+        height: 75%;
+        width:75%;
         background-color: #291457;
         color: white;
         border-radius: 20px;
@@ -132,45 +132,46 @@ a{
         margin-bottom: 4%;
         padding-top: 5px;
         padding: 0;
+        margin-top: 10%;
     }
     .box2{
         margin: 0px;
         margin-bottom: 4%;
         padding: 0;
+        margin-top: 12%;
     }
     .box3{
         margin: 0px;
         padding: 0;
+        margin-top: 12%;
     }
     .boxes h2:nth-of-type(2) {
         margin: 0px;
         padding: 0px;
-        font-size: 18px;
-        padding-left: 0px;
+        font-size: 25px;
+        padding-left:20%;
         position: relative;
         left: 17%;
         
     }
     .boxes h2:first-of-type {
-        padding-left: 15%;
+        padding-left: 35%;
         padding-top: 2%;
-        
+        font-size: 19px;
     }
     .service ,li{
         display: none;
     }
     .boxes p{
-        padding-top: 8px;
-        padding-left: 20px;
+        padding-top: 5px;
+        padding-left: 10%;
         width: 70%;
-        font-weight: 400;
-        line-height: 1.3;
         word-spacing: 0.1em;
         letter-spacing: 0.1em;
         text-align-last: center;
     }
     .arrow{
-        height: 20%;
+        height: 19%;
         width:40%;
         border-radius: 20px;
         background-color: white;
@@ -181,21 +182,21 @@ a{
         align-items: center;
         cursor: pointer;
         position: relative;
-        top: 8%;
-        left: 6%;
+        top: 5%;
+        left: 18%;
     }
     .icon1{
         color: white;
         background-color: #291457;
         border-radius: 50%;
         padding: 5px;
-        font-size: 15px;
+        font-size: 0.6em;
         cursor: pointer;
     }
     .boxes:hover {
         box-shadow: 2px 2px 2px 2px #CBC3E3 ,-2px -2px 2px 2px #CBC3E3;
-        height: 90%;
-        width: 70%;
+        height: 80%;
+        width: 75%;
 
          .arrow{
         height: 20%;
@@ -210,7 +211,7 @@ a{
         cursor: pointer;
         position: relative;
         top: 10%;
-        left: 6%;
+        left: 18%;
     }
     .boxes h2:nth-of-type(2){
         font-size: 4em;
@@ -237,8 +238,8 @@ a{
         padding-bottom: 5px;
     }
     .boxes {
-        height: 100%;
-        width:78%;
+        height: 80%;
+        width: 88%;
         background-color: #291457;
         color: white;
         border-radius: 20px;
@@ -252,31 +253,33 @@ a{
     }
     .box1{
         margin: 0px;
-        margin-bottom: 4%;
+        margin-top: 15%;
         padding-top: 5px;
         padding: 0;
     }
     .box2{
         margin: 0px;
-        margin-bottom: 4%;
+        margin-top: 17%;
         padding: 0;
     }
     .box3{
         margin: 0px;
+        margin-top: 17%;
         padding: 0;
     }
     .boxes h2:nth-of-type(2) {
         margin: 0px;
         padding: 0px;
-        font-size: 20px;
-        padding-left: 0px;
+        font-size: 30px;
+        padding-left: 19%;
         position: relative;
-        left: 17%;
+        left: 18%;
         
     }
     .boxes h2:first-of-type {
-        padding-left: 15%;
+        padding-left: 37%;
         padding-top: 2%;
+        font-size: 18px;
         
     }
     .service ,li{
@@ -286,27 +289,26 @@ a{
         padding-top: 8px;
         padding-left: 20px;
         width: 70%;
-        font-weight: 400;
-        line-height: 1.3;
+        font-size: 14px;
+        /* line-height: 1.3;
         word-spacing: 0.1em;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.1em; */
         text-align-last: center;
     }
     .arrow{
-        height: 20%;
-        width:50%;
         border-radius: 20px;
         background-color: white;
         color: #000;
-        font-size: 18px;
+        font-size: 17px;
         display: flex;
         justify-content:space-between;
         align-items: center;
         cursor: pointer;
         position: relative;
-        top: 8%;
-        left: 6%;
+        left: 15%;
+        width: 50%;
     }
+  
     .icon1{
         color: white;
         background-color: #291457;
@@ -315,25 +317,26 @@ a{
         font-size: 15px;
         cursor: pointer;
     }
+   
     .boxes:hover {
         box-shadow: 2px 2px 2px 2px #CBC3E3 ,-2px -2px 2px 2px #CBC3E3;
-        height: 90%;
-        width: 70%;
+        height: 80%;
+        width: 89%;
 
          .arrow{
         height: 20%;
-        width:44%;
+        width:60%;
         border-radius: 20px;
         background-color: white;
         color: #000;
         font-size: 18px;
         display: flex;
-        justify-content:space-between;
+        /* justify-content:space-between; */
         align-items: center;
         cursor: pointer;
         position: relative;
-        top: 10%;
         left: 6%;
+        
     }
     .boxes h2:nth-of-type(2){
         font-size: 4em;
@@ -352,15 +355,128 @@ a{
     
 }
 @media screen and (min-width: 599px) and (max-width: 750px) { /* continue from here giving grid*/
-    .container {
-      
-    }
-    .boxes {
-      width: calc(33.333% - 16px);
-      margin-bottom: 16px;
-    }
-    .boxes:nth-child(3n+4) {
-      margin-left: 0;
-    }
-  }
-
+        .container{
+            display: grid;
+            background-color: #13072D;
+            height: 400px;
+            width: 100%;
+            padding-bottom: 5px;
+        }
+        .boxes {
+            height: 80%;
+            width:100%;
+            background-color: #291457;
+            color: white;
+            border-radius: 20px;
+            margin: auto;
+            position: relative;
+            top: 3%;
+            left: 8%;
+            padding: 10px 0px 0px 20px;
+            background-image: linear-gradient(to bottom right, #13072D, #291457);
+            box-shadow: -2px -2px 2px 2px #291457;
+        }
+        .box1{
+            
+            margin: 0px;
+            margin-bottom: 4%;
+            padding-top: 5px;
+            padding: 0;
+            margin-top: 10%;
+        }
+        .box2{
+            margin: 0px;
+            margin-bottom: 4%;
+            padding: 0;
+            margin-top: 12%;
+        }
+        .box3{
+            margin: 0px;
+            padding: 0;
+            margin-top: 12%;
+        }
+        .boxes h2:nth-of-type(2) {
+            margin: 0px;
+            padding: 0px;
+            font-size: 25px;
+            padding-left:20%;
+            position: relative;
+            left: 17%;
+            
+        }
+        .boxes h2:first-of-type {
+            padding-left: 35%;
+            padding-top: 2%;
+            font-size: 19px;
+        }
+        .service ,li{
+            display: none;
+        }
+        .boxes p{
+            padding-top: 5px;
+            padding-left: 10%;
+            width: 70%;
+            word-spacing: 0.1em;
+            letter-spacing: 0.1em;
+            text-align-last: center;
+        }
+        .arrow{
+            height: 19%;
+            width:40%;
+            border-radius: 20px;
+            background-color: white;
+            color: #000;
+            font-size: 18px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            top: 5%;
+            left: 18%;
+        }
+        .icon1{
+            color: white;
+            background-color: #291457;
+            border-radius: 50%;
+            padding: 5px;
+            font-size: 0.6em;
+            cursor: pointer;
+        }
+        .boxes:hover {
+            box-shadow: 2px 2px 2px 2px #CBC3E3 ,-2px -2px 2px 2px #CBC3E3;
+            height: 85%;
+            width: 100%;
+    
+             .arrow{
+            height: 20%;
+            width:44%;
+            border-radius: 20px;
+            background-color: white;
+            color: #000;
+            font-size: 18px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            cursor: pointer;
+            position: relative;
+            top: 10%;
+            left: 18%;
+        }
+        .boxes h2:nth-of-type(2){
+            font-size: 4em;
+        }
+        .icon1{
+            color: white;
+            background-color: #291457;
+            border-radius: 50%;
+            padding: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+     
+        }
+        
+        
+    
+}
