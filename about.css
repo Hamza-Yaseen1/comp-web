@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: #121139;
+    overflow-x: hidden;
+}
+
+.bac-img{
+    height: 70vh;
+    width: 100vw;
+    background-image: url(./Photo/6555.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: #121139;
+}
+.h2{
+    height: 85%;
+    width: 20%;
+}
+.h2 h2{
+    position: absolute;
+    left: 6%;
+    top: 8%;
+    color: white;
+    font-weight: 500;
+}
+.heading{
+    height: 88%;
+    width: 70%;
+
+}
+.heading h2{
+    position: relative;
+    left: 15%;
+    top: 30%;
+    color: white;
+    line-height: 1.7;
+    font-size:38px;
+    font-weight: 400;
+    word-spacing: 15px;
+}
+.icon-about{
+    display: flex;
+    width: 78%;
+    height: 50%;
+    position: relative;
+    left: 15%;
+    top: 40%;
+    color: #EAB2F9;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.icon{
+    display: flex;
+    padding-left: 25px;
+}
+.icon p{
+    padding-left: 10px;
+}
+.foot-text{
+    height: 27vh;
+    background-color: #121139;
+    color: #EAB2F9;
+    font-size: 30px;
+}
+.foot-text p{
+    position: relative;
+    left: 10%;
+    top: 5%;
+    height: 150px;
+    width: 70%;
+
+}
+@media screen and (max-width:800px) {
+    .foot-text{
+        height: 27vh;
+        background-color: #121139;
+        color: #EAB2F9;
+        font-size: 25px;
+    }
+
+    .heading h2{
+        position: relative;
+        left: 10%;
+        top: 25%;
+        color: white;
+        line-height: 1.7;
+        font-size:30px;
+        font-weight: 400;
+        word-spacing: 7px;
+    }
+    .icon-about{
+        display: flex;
+        width: 80%;
+        height: 45%;
+        position: relative;
+        left: 11%;
+        top: 28%;
+        color: #EAB2F9;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .icon{
+        display: flex;
+        padding-left: 20px;
+    }
+    .icon p{
+        padding-left: 8px;
+    }
+}
+@media screen and (max-width:550px){
+    .foot-text{
+        height: 27vh;
+        background-color: #121139;
+        color: #EAB2F9;
+        font-size: 20px;
+    }
+    .foot-text p{
+        position: relative;
+        left: 8%;
+        top: 5%;
+        height: 150px;
+        width: 80%;
+    
+    }
+    .h2{
+        height: 80%;
+        width: 20%;
+    }
+    .h2 h2{
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        color: white;
+        font-weight: 400;
+    }
+    .heading h2{
+        position: relative;
+        left: 1%;
+        top: 29%;
+        color: white;
+        line-height: 1.7;
+        font-size:30px;
+        font-weight: 400;
+        word-spacing: 2px;
+    }
+    .icon-about{
+        display: flex;
+        width: 90%;
+        height: 50%;
+        position: relative;
+        left: 7%;
+        top: 35%;
+        color: #EAB2F9;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+    .icon{
+        display: flex;
+        padding-left: 15px;
+    }
+    .icon p{
+        padding-left: 4px;
+    }
+}
+@media screen and (max-width:480px){
+    .h2{
+        height: 80%;
+        width: 20%;
+    }
+    .h2 h2{
+        position: absolute;
+        left: 4%;
+        top: 3%;
+        color: white;
+        font-weight: 300;
+    }
+    .heading h2{
+        position: relative;
+        left: 1%;
+        top: 24%;
+        color: white;
+        line-height: 1.4;
+        font-size:30px;
+        font-weight: 400;
+        word-spacing: 2px;
+    }
+    .icon-about{
+        display: flex;
+        width: 98%;
+        height: 50%;
+        position: relative;
+        left: 1%;
+        top: 35%;
+        color: #EAB2F9;
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    .icon{
+        display: flex;
+        padding-left: 10px;
+    }
+    .icon p{
+        padding-left: 4px;
+    }
+    .foot-text{
+        height: 25vh;
+        background-color: #121139;
+        color: #EAB2F9;
+        font-size: 18px;
+       
+    }
+    .foot-text p{
+        position: relative;
+        left: 11%;
+        top: 2%;
+        height: 150px;
+        width: 80%;
+        padding-bottom: 2%;
+    }
+    .bac-img{
+        height: 70vh;
+        width: 100vw;
+        background-image: url(./Photo/6555.png);
+        background-size: 100vw 85vh;
+      
+        background-repeat: no-repeat;
+        display: flex;
+        background-color: #121139;
+    }
+}
