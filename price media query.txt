@@ -1,3 +1,0 @@
-.)add media query after 768 box remain same but come one after another till 1024px
-.)add media query for 400 to reduce size of box
-and after that increase height reduce width
